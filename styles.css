@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Oswald' , sans-serif;
+    font-size: 16px;
+    background-color: #222222;
+}
+
+.logo {
+    float: left;
+    height: 5rem;
+    width: 5rem;
+    color: #000000 !important;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    justify-content:left;
+    align-items: left;
+}
+
+header {
+    position: relative;
+    display: inline-flex;
+    background-color: #FFFFFF;
+    margin-right: auto;
+    padding: 0;
+    height: 4.5rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    float: center;
+    background-image: url(images/Logo.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 6rem;
+    background-position: left;
+}
+
+nav {
+    position: absolute;
+    float: right;
+    display: inline-flex;
+    text-align: right;
+    justify-content: flex-end;
+    color: #000000;
+    margin-left: 100rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+nav li {
+    list-style-type: none;
+    float: right;
+    padding: 2rem;
+}
+
+.hero {
+    width: 17.5rem;
+    display: inline-flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.main {
+    color: #ffffff;
+    padding-top: 1rem;
+}
+
+#about {
+    padding: 2rem;
+}
+
+#experience {
+    padding: 2rem;
+}
+
+#work {
+    padding: 2rem;
+}
+
+
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile {
+    color: white;
+    float: left;
+    margin-left: 40rem;
+}
+
+.email {
+    color: #FFFFFF;
+    float: right;
+    margin-right: 40rem;
+}
+
+footer {
+  display: fixed;
+  margin-bottom: 0;
+  background-color: #FFFFFF;
+  color: #000000;
+}
