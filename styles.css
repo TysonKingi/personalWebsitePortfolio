@@ -172,3 +172,65 @@ footer {
     text-align: center;
  }
 }
+
+@media only screen and (max-width: 480px) {
+    body {
+      overflow-x: hidden;
+    }
+  
+    header {
+      width: 100%;
+    }
+  
+    nav {
+      float: right;
+    }
+  
+    .hero {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    .container-contact{
+    width: 100%;
+    }
+    
+    .contact {
+     position: relative;
+    }
+  
+   .mobile {
+      color: #000000;
+      margin-top: 0;
+      display: inline-flex;
+      justify-content: start;
+      align-items: start;
+      width: 100%;
+      font-size: 2rem;
+      float: left;
+      position: relative;
+      flex-wrap: nowrap;
+      margin-left: 0rem;
+   }
+  
+   .email {
+      color: #000000;
+      margin-top: 0;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      font-size: 2rem;
+      float: none;
+      position: relative;
+   }
+  
+   .column {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+   }
+  }
